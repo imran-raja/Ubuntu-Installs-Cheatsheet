@@ -11,7 +11,7 @@
 	* [Internet](#internet)
 	* [File Sharing](#file-sharing)
 	* [Productivity](#productivity)
-	* [Pdf reader](#[pdf-reader)
+	* [Pdf Readers](#[pdf-readers)
 	* [Audio and Video](#audio-and-video)
 	* [Graphics](#graphics)
 
@@ -56,7 +56,7 @@ sudo apt-get update
 sudo apt-get install octave
 ```
 
-**R
+**R**
 ```
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
 sudo add-apt-repository 'deb [arch=amd64,i386] https://cran.rstudio.com/bin/linux/ubuntu xenial/'
@@ -65,7 +65,7 @@ sudo apt-get install r-base
 ```
 ### Data Recovery
 
-**TestDisk 
+**TestDisk**
 ```
 sudo apt-get update
 sudo apt-get install testdisk
@@ -73,7 +73,7 @@ sudo apt-get install testdisk
 
 ### File Managers
 
-**Nautilus
+**Nautilus**
 ```
 sudo apt-get update
 sudo apt-get install nautilus
@@ -101,27 +101,29 @@ wget "https://github.com/maateen/avro/releases/download/v2.1/avro_2.1-3_all.deb"
 sudo dpkg -i avro_2.1-3_all.deb
 ```	
 
-**TLP - Linux Advanced Power Management Tool
+**TLP - Linux Advanced Power Management Tool**
 ```
 sudo add-apt-repository ppa:linrunner/tlp
 sudo apt-get update
 sudo apt-get install tlp tlp-rdw
 ```
-**GParted
+
+**GParted**
 ```
 sudo apt-get install gparted
 ```
-**BleachBit
+
+**BleachBit**
 > Couldn't find a Terminal command. So just download from the [official Bleach Bit download webpage](https://www.bleachbit.org/download/linux)
 
-**KeePassX
+**KeePassX**
 ```
 sudo add-apt-repository ppa:eugenesan/ppa
 sudo apt-get update
 sudo apt-get install keepassx
 ```
 
-**System Load Indicator
+**System Load Indicator**
 ```
 sudo add-apt-repository ppa:indicator-multiload/stable-daily
 sudo apt-get update && sudo apt-get install indicator-multiload
@@ -149,11 +151,11 @@ cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
 ~/.dropbox-dist/dropboxd
 ```		
 		
-**TeamViewer
+**TeamViewer**
 > Couldn't find a Terminal command. So just download from the [official TeamViewer download webpage](https://www.teamviewer.com/en/download/linux/)
 
-
-**Go For It
+### Productivity
+**Go For It**
 ```
 sudo add-apt-repository ppa:go-for-it-team/go-for-it-daily && sudo apt-get update
 sudo apt-get install go-for-it
@@ -164,7 +166,7 @@ sudo apt-get install go-for-it
 apt-get install gnome-dictionary
 ```
 
-### Pdf reader
+### Pdf Readers
 
 **Okular**	
 ```
@@ -180,7 +182,7 @@ sudo apt-get update && sudo apt-get upgrade
 sudo apt-get install vlc
 ```
 
-**Audacity
+**Audacity**
 ```
 sudo add-apt-repository ppa:ubuntuhandbook1/audacity
 sudo apt update
@@ -189,7 +191,7 @@ sudo apt install audacity
 
 ### Graphics
 
-**Inkscape
+**Inkscape**
 ```
 sudo snap remove inkscape
 sudo add-apt-repository ppa:inkscape.dev/stable
