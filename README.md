@@ -2,7 +2,19 @@
 
 [Application](#application)
 
-**1.Slack**		
+[Chat Clients](#chat-clients)
+
+[Development](#development)
+[Data Recovery](#data-recovery)
+[File Managers](#file-managers)
+[Windows on Linux](#windows-on-linux)
+[Utilities](#utilities)
+[Internet](#internet)
+[File Sharing](#file-sharing)
+
+
+### Chat Client
+**Slack**		
 
 > Couldn't find a Terminal command. So just download from the [official Slack download webpage](https://slack.com/downloads/linux)
 		
@@ -79,7 +91,7 @@ sudo apt-get update && sudo apt-get install bazel
 sudo apt-get upgrade bazel
 ```
 
-# Application
+### Application
 
 TLP - Linux Advanced Power Management Tool
 
