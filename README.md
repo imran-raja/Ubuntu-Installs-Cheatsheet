@@ -1,6 +1,6 @@
 ## A cheat-sheet of Terminal commands for installing programs after a fresh Ubuntu set-up 
 
-[Application](#Application)
+[Application](#application)
 
 **1.Slack**		
 
@@ -79,7 +79,7 @@ sudo apt-get update && sudo apt-get install bazel
 sudo apt-get upgrade bazel
 ```
 
-Application
+# Application
 
 TLP - Linux Advanced Power Management Tool
 
