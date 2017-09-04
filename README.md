@@ -2,25 +2,25 @@
 
 **1.Slack**		
 
-https://slack.com/downloads/linux
+> https://slack.com/downloads/linux
 		
 **2. Pycharm Community Version**		
 
-sudo add-apt-repository ppa:mystic-mirage/pycharm
-sudo apt-get update
+> sudo add-apt-repository ppa:mystic-mirage/pycharm
+> sudo apt-get update
 		
 		
 **3. Sublime Text**	
 
-wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
-echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
-sudo apt-get update
-sudo apt-get install sublime-text
+> wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+> echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+> sudo apt-get update
+> sudo apt-get install sublime-text
 		
 **4. Chromium Browser**		
 
-sudo apt-get update
-sudo apt-get install chromium-browser
+> sudo apt-get update
+> sudo apt-get install chromium-browser
 		
 **5. Dropbox**		
 
