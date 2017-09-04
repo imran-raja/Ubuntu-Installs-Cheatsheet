@@ -1,4 +1,4 @@
-# A cheat-sheet of Terminal commands for installing programs after a fresh Ubuntu set-up 
+## A cheat-sheet of Terminal commands for installing programs after a fresh Ubuntu set-up 
 
 **1.Slack**		
 
