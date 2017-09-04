@@ -1,7 +1,6 @@
 ## A cheat-sheet of Terminal commands for installing programs after a fresh Ubuntu set-up 
 
-##* [Application](#application)
-
+#[Application](#application)
 	* [Chat Clients](#chat-clients)
 	* [Development](#development)
 	* [Data Recovery](#data-recovery)
