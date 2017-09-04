@@ -1,6 +1,6 @@
 ## A cheat-sheet of Terminal commands for installing programs after a fresh Ubuntu set-up 
 
-#[Application](#application)
+* [Application](#application)
 	* [Chat Clients](#chat-clients)
 	* [Development](#development)
 	* [Data Recovery](#data-recovery)
@@ -15,25 +15,25 @@
 	* [Graphics](#graphics)
 
 
-### Chat Clients
-**Slack**		
+## Chat Clients
+**1. Slack**		
 
 > Couldn't find a Terminal command. So just download from the [official Slack download webpage](https://slack.com/downloads/linux)
 
-**Skype**	
+**2. Skype**	
 
 > Couldn't find a Terminal command. So just download from the [official Skype download webpage](https://www.skype.com/en/download-skype/skype-for-computer/)
 
 
-### Development
-**Pycharm Community Version**		
+## Development
+**1. Pycharm Community Version**		
 
 ```
 sudo add-apt-repository ppa:mystic-mirage/pycharm
 sudo apt-get update
 ```		
 		
-**Sublime Text**	
+**2. Sublime Text**	
 ```
 wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
 echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
@@ -41,94 +41,95 @@ sudo apt-get update
 sudo apt-get install sublime-text
 ```
 
-**CodeBlocks**
+**3. CodeBlocks**
 ```
 sudo add-apt-repository ppa:damien-moore/codeblocks-stable
 sudo apt update
 sudo apt install codeblocks codeblocks-contrib
 ```
 
-**Octave**	
+**4. Octave**	
 ```
 sudo apt-add-repository ppa:octave/stable
 sudo apt-get update
 sudo apt-get install octave
 ```
 
-**R**
+**5. R**
 ```
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9
 sudo add-apt-repository 'deb [arch=amd64,i386] https://cran.rstudio.com/bin/linux/ubuntu xenial/'
 sudo apt-get update
 sudo apt-get install r-base
 ```
-### Data Recovery
+## Data Recovery
 
-**TestDisk**
+**1. TestDisk**
 ```
 sudo apt-get update
 sudo apt-get install testdisk
 ```
 
-### File Managers
+## File Managers
 
-**Nautilus**
+**1. Nautilus**
 ```
 sudo apt-get update
 sudo apt-get install nautilus
 ```
-### Windows on Linux
+## Windows on Linux
 
-**Wine**
+**1. Wine**
 ```
 sudo dpkg --add-architecture i386
 sudo apt-add-repository 'https://dl.winehq.org/wine-builds/ubuntu/'
 wget https://dl.winehq.org/wine-builds/Release.key && sudo apt-key add Release.key
 sudo apt update && sudo apt install winehq-stable
 ```	
-### Utilities
-**Media Codec**		
+## Utilities
+
+**1. Media Codec**		
 ```
 sudo apt install ubuntu-restricted-extras
 sudo apt install libavcodec-extra
 ```		
 
-**Avro**	
+**2. Avro**	
 ```
 sudo apt install gjs gir1.2-ibus-1.0 libibus-1.0-5 libibus-1.0-dev ibus-gtk ibus-gtk3 ibus-clutter ibus-qt4
 wget "https://github.com/maateen/avro/releases/download/v2.1/avro_2.1-3_all.deb"
 sudo dpkg -i avro_2.1-3_all.deb
 ```	
 
-**TLP - Linux Advanced Power Management Tool**
+**3. TLP - Linux Advanced Power Management Tool**
 ```
 sudo add-apt-repository ppa:linrunner/tlp
 sudo apt-get update
 sudo apt-get install tlp tlp-rdw
 ```
 
-**GParted**
+**4. GParted**
 ```
 sudo apt-get install gparted
 ```
 
-**BleachBit**
+**5. BleachBit**
 > Couldn't find a Terminal command. So just download from the [official Bleach Bit download webpage](https://www.bleachbit.org/download/linux)
 
-**KeePassX**
+**6. KeePassX**
 ```
 sudo add-apt-repository ppa:eugenesan/ppa
 sudo apt-get update
 sudo apt-get install keepassx
 ```
 
-**System Load Indicator**
+**7. System Load Indicator**
 ```
 sudo add-apt-repository ppa:indicator-multiload/stable-daily
 sudo apt-get update && sudo apt-get install indicator-multiload
 ```
 
-**Bazel**
+**8. Bazel**
 ```
 sudo apt-get install openjdk-8-jdk
 echo "deb [arch=amd64] http://storage.googleapis.com/bazel-apt stable jdk1.8" | sudo tee /etc/apt/sources.list.d/bazel.list
@@ -136,61 +137,63 @@ curl https://bazel.build/bazel-release.pub.gpg | sudo apt-key add -
 sudo apt-get update && sudo apt-get install bazel
 sudo apt-get upgrade bazel
 ```
-### Internet
+## Internet
 
-**Chromium Browser**		
+**1. Chromium Browser**		
 ```
 sudo apt-get update
 sudo apt-get install chromium-browser
 ```
-### File Sharing
-**Dropbox**		
+## File Sharing
+
+**1. Dropbox**		
 ```
 cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
 ~/.dropbox-dist/dropboxd
 ```		
 		
-**TeamViewer**
+**2. TeamViewer**
 > Couldn't find a Terminal command. So just download from the [official TeamViewer download webpage](https://www.teamviewer.com/en/download/linux/)
 
-### Productivity
-**Go For It**
+## Productivity
+
+**1. Go For It**
 ```
 sudo add-apt-repository ppa:go-for-it-team/go-for-it-daily && sudo apt-get update
 sudo apt-get install go-for-it
 ```
 
-**GNOME Dictionary	
+**2. GNOME Dictionary	
 ```
 apt-get install gnome-dictionary
 ```
 
 ### pdf Readers
 
-**Okular**	
+**1. Okular**	
 ```
 sudo apt-get update
 sudo apt-get install okular
 ```
 
-### Audio and Video
-**VLC**		
+## Audio and Video
+**1. VLC**		
 ```
 sudo add-apt-repository ppa:videolan/stable-daily
 sudo apt-get update && sudo apt-get upgrade
 sudo apt-get install vlc
 ```
 
-**Audacity**
+**2. Audacity**
 ```
 sudo add-apt-repository ppa:ubuntuhandbook1/audacity
 sudo apt update
 sudo apt install audacity
 ```
 
-### Graphics
+## Graphics
 
-**Inkscape**
+**1. Inkscape**
 ```
 sudo snap remove inkscape
 sudo add-apt-repository ppa:inkscape.dev/stable
