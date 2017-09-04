@@ -1,6 +1,6 @@
 ## A cheat-sheet of Terminal commands for installing programs after a fresh Ubuntu set-up 
 
-* [Application](#application)
+##* [Application](#application)
 
 	* [Chat Clients](#chat-clients)
 	* [Development](#development)
@@ -17,13 +17,13 @@
 
 
 ### Chat Clients
-	**Slack**		
+**Slack**		
 
-	> Couldn't find a Terminal command. So just download from the [official Slack download webpage](https://slack.com/downloads/linux)
+> Couldn't find a Terminal command. So just download from the [official Slack download webpage](https://slack.com/downloads/linux)
 
-	**Skype**	
+**Skype**	
 
-	> Couldn't find a Terminal command. So just download from the [official Skype download webpage](https://www.skype.com/en/download-skype/skype-for-computer/)
+> Couldn't find a Terminal command. So just download from the [official Skype download webpage](https://www.skype.com/en/download-skype/skype-for-computer/)
 
 
 ### Development
