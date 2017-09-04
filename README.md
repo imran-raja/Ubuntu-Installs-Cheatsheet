@@ -1,4 +1,4 @@
-# TA cheat-sheet of Terminal commands for installing programs after a fresh Ubuntu set-up 
+# A cheat-sheet of Terminal commands for installing programs after a fresh Ubuntu set-up 
 
 **1.Slack**		
 
@@ -28,7 +28,7 @@ cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
 ~/.dropbox-dist/dropboxd
 		
 		
-**6. Octave	**	
+**6. Octave**	
 
 sudo apt-add-repository ppa:octave/stable
 sudo apt-get update
@@ -39,17 +39,17 @@ sudo apt-get install octave
 sudo apt install ubuntu-restricted-extras
 sudo apt install libavcodec-extra
 		
-**8. Skype	**	
+**8. Skype**	
 
 https://www.skype.com/en/download-skype/skype-for-computer/
 		
-**9. Avro	**	
+**9. Avro**	
 
 sudo apt install gjs gir1.2-ibus-1.0 libibus-1.0-5 libibus-1.0-dev ibus-gtk ibus-gtk3 ibus-clutter ibus-qt4
 wget "https://github.com/maateen/avro/releases/download/v2.1/avro_2.1-3_all.deb"
 sudo dpkg -i avro_2.1-3_all.deb
 		
-**10. Wine**		
+**10. Wine**
 sudo dpkg --add-architecture i386
 sudo apt-add-repository 'https://dl.winehq.org/wine-builds/ubuntu/'
 wget https://dl.winehq.org/wine-builds/Release.key && sudo apt-key add Release.key
@@ -66,7 +66,7 @@ sudo apt-get install vlc
 sudo apt-get update
 sudo apt-get install okular
 
-13. Bazel
+**13. Bazel**
 
 sudo apt-get install openjdk-8-jdk
 echo "deb [arch=amd64] http://storage.googleapis.com/bazel-apt stable jdk1.8" | sudo tee /etc/apt/sources.list.d/bazel.list
