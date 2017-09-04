@@ -11,20 +11,20 @@
 	* [Internet](#internet)
 	* [File Sharing](#file-sharing)
 	* [Productivity](#productivity)
-	* [Pdf Readers](#[pdf-readers)
+	* [pdf Readers](#pdf-readers)
 	* [Audio and Video](#audio-and-video)
 	* [Graphics](#graphics)
 
 
 ### Chat Clients
-**Slack**		
+	**Slack**		
 
-> Couldn't find a Terminal command. So just download from the [official Slack download webpage](https://slack.com/downloads/linux)
+	> Couldn't find a Terminal command. So just download from the [official Slack download webpage](https://slack.com/downloads/linux)
 
-**Skype**	
+	**Skype**	
 
-> Couldn't find a Terminal command. So just download from the [official Skype download webpage](https://www.skype.com/en/download-skype/skype-for-computer/)
-		
+	> Couldn't find a Terminal command. So just download from the [official Skype download webpage](https://www.skype.com/en/download-skype/skype-for-computer/)
+
 
 ### Development
 **Pycharm Community Version**		
@@ -166,7 +166,7 @@ sudo apt-get install go-for-it
 apt-get install gnome-dictionary
 ```
 
-### Pdf Readers
+### pdf Readers
 
 **Okular**	
 ```
