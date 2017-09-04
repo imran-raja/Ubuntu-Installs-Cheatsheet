@@ -2,7 +2,7 @@
 
 **1.Slack**		
 
-Couldn't find a Terminal command. So just download from [Official Download Webpage](https://slack.com/downloads/linux)
+> Couldn't find a Terminal command. So just download from the [official Slack download webpage](https://slack.com/downloads/linux)
 		
 **2. Pycharm Community Version**		
 
@@ -42,7 +42,7 @@ sudo apt install libavcodec-extra
 ```		
 **8. Skype**	
 
-Couldn't find a Terminal command. So just download from [Official Download Webpage](https://www.skype.com/en/download-skype/skype-for-computer/)
+> Couldn't find a Terminal command. So just download from the [official Skype download webpage](https://www.skype.com/en/download-skype/skype-for-computer/)
 		
 **9. Avro**	
 ```
