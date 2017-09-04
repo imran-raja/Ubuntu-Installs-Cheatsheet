@@ -1,5 +1,7 @@
 ## A cheat-sheet of Terminal commands for installing programs after a fresh Ubuntu set-up 
 
+[Application](#Application)
+
 **1.Slack**		
 
 > Couldn't find a Terminal command. So just download from the [official Slack download webpage](https://slack.com/downloads/linux)
@@ -76,3 +78,58 @@ curl https://bazel.build/bazel-release.pub.gpg | sudo apt-key add -
 sudo apt-get update && sudo apt-get install bazel
 sudo apt-get upgrade bazel
 ```
+
+Application
+
+TLP - Linux Advanced Power Management Tool
+
+sudo add-apt-repository ppa:linrunner/tlp
+sudo apt-get update
+sudo apt-get install tlp tlp-rdw
+
+GParted
+sudo apt-get install gparted
+
+BleachBit
+https://www.bleachbit.org/download/linux
+
+KeePassX
+sudo add-apt-repository ppa:eugenesan/ppa
+sudo apt-get update
+sudo apt-get install keepassx
+
+System Load Indicator
+sudo add-apt-repository ppa:indicator-multiload/stable-daily
+sudo apt-get update && sudo apt-get install indicator-multiload
+
+TeamViewer
+https://www.teamviewer.com/en/download/linux/
+
+Audacity
+sudo add-apt-repository ppa:ubuntuhandbook1/audacity
+sudo apt update
+sudo apt install audacity
+
+TestDisk 
+sudo apt-get update
+sudo apt-get install testdisk
+
+CodeBlocks
+sudo add-apt-repository ppa:damien-moore/codeblocks-stable
+sudo apt update
+sudo apt install codeblocks codeblocks-contrib
+
+
+Nautilus
+sudo apt-get update
+sudo apt-get install nautilus
+
+Inkscape
+sudo snap remove inkscape
+sudo add-apt-repository ppa:inkscape.dev/stable
+sudo apt update
+sudo apt install inkscape
+
+Go For iT
+sudo add-apt-repository ppa:go-for-it-team/go-for-it-daily && sudo apt-get update
+sudo apt-get install go-for-it
