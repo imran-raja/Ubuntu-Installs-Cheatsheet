@@ -6,9 +6,10 @@
 		
 **2. Pycharm Community Version**		
 
-> sudo add-apt-repository ppa:mystic-mirage/pycharm
-> sudo apt-get update
-		
+```
+sudo add-apt-repository ppa:mystic-mirage/pycharm
+sudo apt-get update
+```		
 		
 **3. Sublime Text**	
 
