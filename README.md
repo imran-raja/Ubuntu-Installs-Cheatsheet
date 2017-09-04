@@ -50,6 +50,7 @@ wget "https://github.com/maateen/avro/releases/download/v2.1/avro_2.1-3_all.deb"
 sudo dpkg -i avro_2.1-3_all.deb
 		
 **10. Wine**
+
 sudo dpkg --add-architecture i386
 sudo apt-add-repository 'https://dl.winehq.org/wine-builds/ubuntu/'
 wget https://dl.winehq.org/wine-builds/Release.key && sudo apt-key add Release.key
