@@ -13,7 +13,29 @@
 [File Sharing](#file-sharing)
 
 
-### Chat Client
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Chat Clients
 **Slack**		
 
 > Couldn't find a Terminal command. So just download from the [official Slack download webpage](https://slack.com/downloads/linux)
