@@ -163,7 +163,7 @@ sudo add-apt-repository ppa:go-for-it-team/go-for-it-daily && sudo apt-get updat
 sudo apt-get install go-for-it
 ```
 
-**2. GNOME Dictionary	
+**2. GNOME Dictionary**
 ```
 apt-get install gnome-dictionary
 ```
